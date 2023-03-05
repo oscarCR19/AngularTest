@@ -1,0 +1,36 @@
+.container {
+    margin-top: 200px;
+    margin-right: 200px;
+   }
+ 
+   body {
+     padding-top: 90px
+ }
+ 
+ a {
+     margin-top: 20px;
+     font-size: x-large;
+     margin-left: 20px;
+ }
+ 
+ @media (min-width:768px) {
+     body {
+         padding-top: 0
+     }
+ }
+ 
+ @media (min-width:768px) {
+     body {
+         margin-left: 232px
+     }
+ }
+ 
+ .navbar.fixed-left {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 1030
+ }
+ 
+
